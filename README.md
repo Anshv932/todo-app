@@ -12,9 +12,9 @@ A simple, interactive to-do list application built using HTML, CSS, and JavaScri
 - CSS: Handles the styling and layout of the app.
 - JavaScript: Implements the main functionality, including task management and data handling.
 ## Functionality
-**Local Storage**
+## Local Storage
 - The app uses the browser’s local storage to save the task list. Local storage allows data to persist even after the page is refreshed, making it ideal for storing user data like to-do lists.
-**Task Management**
+## Task Management
 - Adding Tasks: When a user enters a new task and submits it, JavaScript captures the input and adds it to the list. This triggers a re-render of the task list with the new task.
 - Editing Tasks: The app allows users to modify task text. When the edit button is clicked, JavaScript replaces the task text with an input field to update the content. Upon submitting, the task text is updated.
 - Deleting Tasks: Users can remove tasks by clicking the delete button. JavaScript removes the item from both the display and local storage.
